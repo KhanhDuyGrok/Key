@@ -5,7 +5,7 @@ local HttpService = game:GetService("HttpService")
 local StarterGui = game:GetService("StarterGui")
 
 -- * CẤU HÌNH KEYAUTH *
-local KeyAuth_Name = "Duyle11's Application"    -- * Tên Ứng dụng KeyAuth của bạn
+local KeyAuth_Name = "KhanhDuy"    -- * Tên Ứng dụng KeyAuth của bạn
 local KeyAuth_Ownerid = "39CimOd5rU" -- * OwnerID Ứng dụng KeyAuth của bạn
 local KeyAuth_APPVersion = "1.0" -- * Phiên bản Ứng dụng của bạn
 
@@ -125,3 +125,4 @@ elseif scriptName == "HoHoHub" then
 else
     LocalPlayer:Kick("🚫 Không xác định script cần chạy. (scriptName = " .. tostring(scriptName) .. ")")
 end
+
